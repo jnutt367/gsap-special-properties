@@ -1,5 +1,5 @@
 gsap.to("h1", { duration: 2, color: "white", textAlign: "center" });
-gsap.to("p", { duration: 2, color: "white", textAlign: "center" });
+
 //add code to experiment with stagger object
 gsap.to("#freds img", {
     y: "-700",
@@ -8,8 +8,8 @@ gsap.to("#freds img", {
     ease: "none",
     stagger: {
         amount: 2,
-        from: "edges",
-        ease: "power2.inOut",
+        from: "end",
+        ease: "back",
 
     }
 });
